@@ -53,7 +53,7 @@ Designed and Developed by: Saksham Sahgal and Bhavya Wig
 <br/>		Maze solved:
 <br/>	else
 <br/>	{
-<br/>		if(any neighbor ofthis cell exists where path is possible and neighbor is unvisited)
+<br/>		if(any neighbor of this cell exists where path is possible and neighbor is unvisited)
 <br/>		{
 <br/>		> add that neighbour into the stack
 <br/>		> Color that neighbor cell
