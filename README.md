@@ -26,7 +26,7 @@ Pseudo Code :
 >select starting point
 >mark starting point visited
 >push starting point in a stack of pairs
-while(stack is not empty)
+>while(stack is not empty)
 {
 	>select top coordinates of stack as current cell
 	if( any unvisited neighbour of current cell is available )
