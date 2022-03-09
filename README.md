@@ -28,18 +28,18 @@ Designed and Developed by: Saksham Sahgal and Bhavya Wig
 >push starting point in a stack of pairs
 >
 >while(stack is not empty)
-<br/>{
-<br/>	>select top coordinates of stack as current cell
-<br/>	if( any unvisited neighbour of current cell is available )
-<br/>	{
-<br/>		>randomly choose an unvisited available neighbour of current cell
-<br/>		>push that neighbour into the stack of pair
-<br/>		>mark it as visited
-<br/>		>open its way via Async function
-<br/>	}
-<br/>	else
-<br/>		pop current cell from the stack
-<br/>}
+<br/> &nbsp;&nbsp;{
+<br/>	&nbsp;&nbsp;>select top coordinates of stack as current cell
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;if( any unvisited neighbour of current cell is available )
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;	{
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	>randomly choose an unvisited available neighbour of current cell
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	>push that neighbour into the stack of pair
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	>mark it as visited
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	>open its way via Async function
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;}
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;else
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	pop current cell from the stack
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;}
 
 <strong>How Do We Solve Mazes?</strong>
 
