@@ -78,10 +78,10 @@ There is a function called  <strong>extract_row_col </strong>, the sole purpose 
 	                                                               CELL CLASS
 								       
 We created a class called <strong> Cells  </strong> which stores various properties of a cell. We initialize four Boolean integers namely 
- <strong>Upper_Wall  </strong>
- <strong>Right_Wall  </strong>
- <strong>Down_Wall </strong>
- <strong>Left_Wall </strong>
+ <br/><strong>Upper_Wall  </strong>
+ <br/><strong>Right_Wall  </strong>
+ <br/><strong>Down_Wall </strong>
+ <br/><strong>Left_Wall </strong>
 
 An integer frameindex which sets different frames to cell. We also store a highlighted image in highlighted image.
 
