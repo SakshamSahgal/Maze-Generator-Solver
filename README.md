@@ -47,25 +47,25 @@ Designed and Developed by: Saksham Sahgal and Bhavya Wig
 
 > Add the start pointcoordinates into the stack ofpairs . mark it as visited and color this cell
 <br/>whi|e(stack is not empty)
-<br/>{
-<br/>	> select the top most coordinates ofthe stack as currentcell
-<br/>	lf(current cell is bottom right cell)	
-<br/>		Maze solved:
-<br/>	else
-<br/>	{
-<br/>		if(any neighbor of this cell exists where path is possible and neighbor is unvisited)
-<br/>		{
-<br/>		> add that neighbour into the stack
-<br/>		> Color that neighbor cell
-<br/>		> mark that cell as visited
-<br/>		}
-<br/>		else
-<br/>		{
-<br/>		>pop this cell from the stack
-<br/>		>decolorize this cell
-<br/>		}
-<br/>	}
-<br/>}
+<br/>&nbsp;&nbsp;{
+<br/>	&nbsp;&nbsp;> select the top most coordinates ofthe stack as currentcell
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;lf(current cell is bottom right cell)	
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maze solved:
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;else
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;{
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;	if(any neighbor of this cell exists where path is possible and neighbor is unvisited)
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;	{
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	> add that neighbour into the stack
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	> Color that neighbor cell
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	> mark that cell as visited
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;	}
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;	else
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;	{
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	>pop this cell from the stack
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	>decolorize this cell
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	}
+<br/>	&nbsp;&nbsp;&nbsp;&nbsp;}
+<br/>&nbsp;&nbsp;}
 
 We initialize <strong>grid_size</strong> which is the frame in which maze will be formed. <strong>Cell_size</strong> will indicate the length of each box in maze when grid will be created. Desired_values is the values which the slider can take and create respective grid.
 
