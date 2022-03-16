@@ -1,3 +1,6 @@
+To Play around with it  , just install the windows setup in -->> Deployment Setup/Maze Setup/Release/Maze Setup.msi 
+and you are ready to go.
+
 # Maze-Generator-Solver
 Generates random solvable mazes and solves them in realtime.
 
